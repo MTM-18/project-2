@@ -1,0 +1,88 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxanium', cursive;
+}
+
+#header-nav	{
+	background-color: #f6b319;
+	border-radius: 0%;
+	border: 0px;
+}
+
+#logo-img {
+	background: url('../images/logo-resized.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0px;
+	border: 1.5px solid #000;
+}
+.pull-left {
+	float: left;
+	left: -10px;
+	position: relative;
+}	
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 {
+	font-family: 'Pushster', cursive;
+	color: #61122f;
+	font-size: 1.5em !important;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #fff;
+	
+}
+
+.navbar-brand a{
+	text-decoration: none;
+}
+
+
+.navbar-brand p {
+	color: #000;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	margin-top: 15px;
+}
+.navbar-brand p span {
+	vertical-align: middle;
+}
+
+#nav-list {
+	margin-top: 10px;
+  }
+  #nav-list a {
+	color: #951C49;
+	text-align: center;
+  }
+  #nav-list a:hover {
+	background: #E7E7E7;
+  }
+  #nav-list a span {
+	font-size: 1.8em;
+  }
+  
+  #phone {
+	margin-top: 5px;
+  }
+  #phone a { /* Phone number */
+	text-align: right;
+	padding-bottom: 0;
+  }
+  #phone div { /* We Deliver */
+	color: #557c3e;
+	text-align: right;
+	padding-right: 0px;
+  }
+
+  .nabar-header button.navbar-toggle, .navbar-header .icon-bar {
+	  border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+	  clear: both;
+  }
